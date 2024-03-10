@@ -3,7 +3,8 @@
 
 # env `PATH` has `/opt/riscv`
 
-apt install texinfo
+# apt install texinfo
+micromamba install texinfo
 micromamba install abseil-cpp bear
 
 ./configure --help
