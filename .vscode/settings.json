@@ -1,4 +1,7 @@
 {
+  "terminal.integrated.env.linux": {
+    // "EXT_PATH": "/opt/riscv/bin",
+  },
   "files.trimTrailingWhitespace": false,
   "files.insertFinalNewline": false,
 }

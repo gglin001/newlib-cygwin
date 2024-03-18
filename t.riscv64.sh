@@ -15,7 +15,7 @@ rm -rf build
 
 mkdir -p build && cd build
 
-../configure --target=riscv64-unknown-elf --prefix=$(pwd)/install
+CFLAGS_FOR_TARGET="-mcmodel=medany" ../configure --target=riscv64-unknown-elf --prefix=$(pwd)/install
 
 bear -- make -j8
 
