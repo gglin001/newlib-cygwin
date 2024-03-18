@@ -1,5 +1,5 @@
 # https://github.com/gglin001/Dockerfiles/tree/master/qemu
-# https://github.com/gglin001/Dockerfiles/tree/master/riscv
+# https://github.com/gglin001/Dockerfiles/tree/master/riscv-gnu-toolchain
 
 # env `PATH` has `/opt/riscv`
 
